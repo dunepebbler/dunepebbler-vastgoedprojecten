@@ -1,0 +1,26 @@
+{
+  projects {
+    edges {
+      node {
+        id
+        title
+        subtitel
+        vastgoedproject
+        link
+        termNames
+        featuredImage {
+          mediaItemId
+          sourceUrl
+          mediaDetails {
+            sizes {
+              name
+              sourceUrl
+              width
+              height
+            }
+          }
+        }
+      }
+    }
+  }
+}
