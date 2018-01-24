@@ -79,6 +79,9 @@ export default {
         font-size 60px
         text-shadow 0 0 15px rgba(0,0,0,0.3)
 
+        @media (max-width 600px)
+          font-size 10vw
+
   .seperator
     background primary-color
     width 100%
