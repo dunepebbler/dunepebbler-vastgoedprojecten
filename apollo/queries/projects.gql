@@ -1,5 +1,5 @@
 {
-  projects {
+  projects(last:50) {
     edges {
       node {
         id
