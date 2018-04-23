@@ -7,7 +7,12 @@ module.exports = {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "Nuxt.js project" }
+      {
+        hid: "description",
+        name: "description",
+        content: "Dune Pebbler Vastgoed marketing. Brochures, logo en huisstijlontwikkeling, advies, website, persbericht, landingspagina, social media campagnes, virtual reality, advertentiecampagne, teksten schrijven, contentcreatie, online en offline nieuwsbrieven, vastgoedfotografie, video, artist impressions, start verkoop manifestatie. Dune Pebbler heeft alles in huis om tot het optimale resultaat te komen bij de verkoop van de woningen."
+      }
+
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     script: [{ src: "https://use.fontawesome.com/70a5e06dbb.js" }]
