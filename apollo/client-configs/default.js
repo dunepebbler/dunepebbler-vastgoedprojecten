@@ -1,8 +1,8 @@
-import { HttpLink } from 'apollo-link-http'
-import { InMemoryCache } from 'apollo-cache-inmemory'
+import { HttpLink } from "apollo-link-http"
+import { InMemoryCache } from "apollo-cache-inmemory"
 
-export default (ctx) => {
-  const httpLink = new HttpLink({ uri: 'https://dunepebbler.nl/graphql/' })
+export default ctx => {
+  const httpLink = new HttpLink({ uri: "https://dunepebbler.nl/graphql/" })
 
   // middleware
   const link = httpLink
